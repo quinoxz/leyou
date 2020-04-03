@@ -5,7 +5,7 @@ spring:
     name: sms-service
   rabbitmq:
     virtual-host: /leyou
-    username: /leyou
+    username: leyou
     password: leyou
     host: 192.168.25.133
 
