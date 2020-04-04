@@ -30,6 +30,10 @@ eureka:
     service-url:
       defaultZone: http://127.0.0.1:10088/eureka
     registry-fetch-interval-seconds: 5
+    #自己是服务，需要注册至服务注册中心上
+    register-with-eureka: true
+	  #如果需要通信，必须运行此服务可以拉去别的服务的注册信息
+    fetch-registry: true
   instance:
     instance-id: ${spring.application.name}:${server.port}
     prefer-ip-address: true  #当你获取host时，返回的不是主机名，而是ip
