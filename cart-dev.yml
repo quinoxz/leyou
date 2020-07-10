@@ -4,12 +4,12 @@ spring:
   application:
     name: cart-service
   redis:
-    host: 192.168.25.133
+    host: 192.168.31.133
   rabbitmq:
     virtual-host: /leyou
     username: leyou
     password: leyou
-    host: 192.168.25.133
+    host: 192.168.31.133
 eureka:
   client:
     service-url:
