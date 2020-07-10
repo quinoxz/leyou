@@ -6,12 +6,12 @@ spring:
   data:
     elasticsearch:
       cluster-name: elasticsearch
-      cluster-nodes: 192.168.25.133:9300
+      cluster-nodes: 192.168.31.133:9300
   rabbitmq:
     virtual-host: /leyou
     username: leyou
     password: leyou
-    host: 192.168.25.133
+    host: 192.168.31.133
   jackson:
     default-property-inclusion: non_null # 配置json处理时忽略空值
   resources:
